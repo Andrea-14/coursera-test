@@ -1,0 +1,152 @@
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+  width: 100%;  
+}
+
+/* Desktop */
+
+@media (min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3 {
+		float: left;
+		border: 1px solid green;	
+		margin: 10px;	
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: #F5F5F5;
+	}
+	.col-lg-1 {
+		width: 30%;				
+		border:2px solid black;
+		
+	}
+	.col-lg-2 {
+		width: 30%;
+		border:2px solid black;		
+	}
+	.col-lg-3 {
+		width: 30%;
+		border:2px solid black;	
+		
+	}	
+	.col-lg-chicken {
+	  	background-color: pink;	
+		float: right;
+		border-left: 2px solid black;
+		border-bottom: 2px solid black;
+	}
+	.col-lg-chicken-desc {
+	  margin-top: 25px;
+	}	
+	.col-lg-beef {
+	   background-color: red;	
+		float: right;
+		border-left: 2px solid black;
+		border-bottom: 2px solid black;
+	}
+	.col-lg-beef-desc {
+	  margin-top: 25px;
+	}	
+	.col-lg-sushi {
+	   background-color: yellow;	
+		float: right;
+		border-left: 2px solid black;
+		border-bottom: 2px solid black;
+	}
+	.col-lg-sushi-desc {
+		margin-top: 25px;
+	}	
+}
+
+/* Tablet View */
+
+@media (min-width: 768px) and (max-width: 991px) { 
+	.col-md-1, .col-md-2, .col-md-3 {
+		background-color: #F5F5F5; 				
+		border: 2px solid black;		
+		float: left;	
+		margin: 5px;	
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.col-md-1 {		
+		width: 48%;					
+	}
+	.col-md-2 {	
+		width: 48%;				
+	}
+	.col-md-3 {						
+		width: 98%;
+	}	
+	.col-lg-chicken {
+		background-color: pink;	
+		float: right;
+
+	}
+	.col-lg-chicken-desc {
+		margin-top: 25px;
+	}	
+	.col-lg-beef {
+		background-color: red;	
+		float: right;
+
+	}
+	.col-lg-beef-desc {
+		margin-top: 25px;
+
+	}	
+	.col-lg-sushi {
+		background-color: yellow;	
+		float: right;		
+	}
+	.col-lg-sushi-desc {
+		margin-top: 25px;
+	}
+
+}
+
+
+/* Mobile View */
+
+@media (max-width: 767px) {
+.col-mv-1, .col-mv-2, .col-mv-3 {
+		background-color: #F5F5F5; 				
+		border: 2px solid black;		
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.col-lg-chicken {
+		background-color: pink;	
+		float: right;
+		border-left: 2px solid black;
+		border-bottom: 2px solid black;
+
+	}
+	.col-lg-chicken-desc {
+		margin-top: 25px;
+	}
+	.col-lg-beef {
+		background-color: red;	
+		float: right;
+		border-left: 2px solid black;
+		border-bottom: 2px solid black;
+	}
+
+	.col-lg-beef-desc {
+		margin-top: 25px;
+	}
+
+	.col-lg-sushi{
+		background-color: yellow;	
+		float: right;
+		border-left: 2px solid black;
+		border-bottom: 2px solid black;
+	}	
+	.col-lg-sushi-desc{
+		margin-top: 25px;
+	}
+}
+
